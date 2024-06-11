@@ -1,7 +1,7 @@
 # Tutorial on Iterative Generative Unfolding with CFMs for the PHYSTAT 2024 Conference on Unfolding
 This repository is a small tutorial on the use of generative networks (Conditional Flow Matching in this case) for iterative generative unfolding presented at the [PHYSTAT 2024](https://indico.cern.ch/event/1357972/) conference.
 
-CFM [[1](https://arxiv.org/abs/2210.02747), [2](https://arxiv.org/abs/2305.10475)] is a network that regresses a velocity field to encode the time evolution between particle-level events and reco-level events. The iterative setup consists on training for the unfolding task on MC and applying it then to Data, after which the MC prior is reweighted to match the Data Unfolded, and repeating. For a thoroug description, please see [[3](https://arxiv.org/abs/2212.08674)].
+CFM [[1](https://arxiv.org/abs/2210.02747), [2](https://arxiv.org/abs/2305.10475)] is a network that regresses a velocity field to encode the time evolution between particle-level events and reco-level events. The iterative setup consists on training for the unfolding task on MC and applying it then to Data, after which the MC prior is reweighted to match the Data Unfolded, and repeating. For a thorough description, please see [[3](https://arxiv.org/abs/2212.08674)].
 
 ## Setup
 To start, let's clone the repository:
